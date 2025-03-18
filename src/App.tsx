@@ -65,6 +65,7 @@ const App: React.FC = () => {
             <Button onClick={()=>navigate("/")}>{<FaHome color="#596780" />}</Button>
             <Button onClick={()=>navigate("/about")}>{<FaBell color="#596780" />}</Button>
             <Button onClick={()=>navigate("/services")}>{<IoMdSettings color="#596780" />}</Button>
+            <Button onClick={()=>navigate("/about")}>{<FaBell color="#596780" />}</Button>
 
             <Image  height={"40px"} width={"40px"} />
           </Col>
